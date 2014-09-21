@@ -19,11 +19,9 @@ recipes:
 - sprout-git::default_editor
 - sprout-git::projects
 - sprout-git::git_scripts
-
+- sprout-andoid
 # development (rails)
-- sprout-rbenv
 - sprout-ruby
-- sprout-mysql
 - sprout-postgresql
 
 # apps
@@ -32,8 +30,6 @@ recipes:
 - sprout-osx-apps::shiftit
 
 # apps (editors)
-- sprout-osx-apps::textmate_bundles
-- sprout-osx-apps::textmate_preferences
 - sprout-osx-apps::macvim
 - sprout-rubymine
 
@@ -77,22 +73,16 @@ node_attributes:
         - pstree
         - qt
         - ssh-copy-id
-        - tmux
         - tree
         - watch
         - wget
-        - rbenv-binstubs
-        - rbenv-gem-rehash
       casks:
-        - ccmenu
-        - firefox
         - gitx-rowanj
         - github
         - google-chrome
         - google-drive
         - google-hangouts
         - skype
-        - textmate
         - vagrant
         - virtualbox
         - xquartz
